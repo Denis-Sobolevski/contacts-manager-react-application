@@ -1,1 +1,1 @@
-A single-paged React Application used as a contact list manager, allowing users to add, search, edit and delete contacts from their contact list, actual contact objects are fetched from an external API [https://randomuser.me/api/](url) for the convenience of this example.
+A single-paged React Application used as a contact list manager, allowing users to add, search, edit and delete contacts from their contact list, actual contact objects are fetched from an external [API](https://randomuser.me/api/) for the convenience of this example.
