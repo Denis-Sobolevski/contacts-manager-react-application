@@ -1,0 +1,47 @@
+.person {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-size: 2rem;
+}
+
+.person figure {
+    display: block;
+}
+
+.person figure img {
+    border-radius: 100px;
+    height: auto;
+    max-width: 100px;
+}
+
+.person div {
+    align-self: center;
+}
+
+.person div p {
+  color: #7696B0;
+  font-size: 1.5rem;
+}
+
+.person div p:nth-child(1) {
+    font-size: 2rem;
+    color: #122D46;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+
+@media (max-width: 655px) {
+    .person{
+      flex-direction: column;
+      margin: 0;
+    }
+    .person * {
+      margin: 0;
+    }
+    .person {
+      text-align: center;
+    }
+  }

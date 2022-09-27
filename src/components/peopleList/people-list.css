@@ -1,0 +1,75 @@
+.peopleList {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.peopleList > p {
+  text-align: center;
+}
+
+.peopleList .searchMenu, .searchMenu form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 3rem; */
+}
+
+.peopleList .searchMenu input {
+  font-size: 2rem;
+}
+
+@media (max-width:750px) {
+  .peopleList .searchMenu, .peopleList .searchMenu form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+}
+
+
+.peopleList > button {
+  background-color: #102a42;
+  color: white;
+  font-size: 3rem;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+.personContainer .buttons {
+  display: flex;
+}
+
+@media (max-width: 655px) {
+  .scrollable {
+    height: 50vh;
+    overflow: scroll;
+  }
+
+  .scrollable * {
+    flex-direction: column;
+  }
+
+  .personContainer {
+    margin-bottom: 5rem;
+  }
+
+  .personContainer .buttons {
+    flex-direction: row;
+  }
+}
+
+.personContainer {
+  display: flex;
+  align-items: center;
+}
+
+.personContainer .trash,
+.personContainer .info,
+.personContainer .edit {
+  margin: 1rem;
+}
